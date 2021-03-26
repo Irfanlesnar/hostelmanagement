@@ -1,0 +1,141 @@
+@font-face
+{
+    src: url("../fonts/lemon.otf");
+    font-family: milk;
+}
+@font-face
+{
+  src: url("../fonts/cursive.otf");
+  font-family: pal;
+}
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2c2c2c;
+}
+img {
+  padding: 4px;
+  width: 450px;
+}
+
+.login_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 30%;
+  text-align: center;
+  background: #eeff00;
+  font-family: milk;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  
+
+}
+
+.login_description{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 30%;
+    text-align: center;
+    padding: 30px;
+    color:yellow ;
+}
+
+.login_heading{
+  font-size: 75px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 20px;
+  font-family: milk;
+}
+
+.login-container{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+}
+
+.login-form-1{
+  padding: 9%;
+  background:#282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color:#fff;
+}
+.login-form-2{
+  padding: 9%;
+  background: #eed600;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color: #282726;
+}
+#openPopup:focus {
+  outline: none;
+}
+#studentbtn{
+  font-weight: 600;
+  width: 50%;
+  color: #282726;
+  background-color: #eed600;
+  border: none;
+  border-radius: 1.5rem;
+  padding:2%;
+}
+#wardenbtn{
+  font-weight: 600;
+  width: 50%;
+  color: #ffffff;
+  background-color: #282726;
+  border: none;
+  border-radius: 1.5rem;
+  padding:2%;
+}
+
+.btnForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+#btnForgetPwd{ 
+  color: #282726;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btnForgetPwd:hover{
+  text-decoration:none;
+  color:#fff;
+}
