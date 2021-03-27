@@ -1,0 +1,63 @@
+@font-face
+{
+    src: url("../fonts/lemon.otf");
+    font-family: milk;
+}
+@font-face
+{
+  src: url("../fonts/cursive.otf");
+  font-family: pal;
+}
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    background-color: #2c2c2c;
+  }
+.warden_head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align:left;
+    font-family: milk;
+    color:yellow ;
+    font-size: 60px;
+    padding: 10px;
+}
+.warden_des{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    font-family: milk;
+    
+}
+.card{
+    font-family: milk;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: px;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 128);
+    
+    
+}
+#comp{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.cardhead{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: milk;
+    
+}
