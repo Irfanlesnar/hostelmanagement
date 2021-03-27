@@ -1,0 +1,71 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!DOCTYPE html>                         
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTEL MANAGEMENT</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/opening.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="../js/wardenlog.js"> </script>
+</head>
+<body>
+
+    <div class="login" id="home">
+        <div class="login_container">
+            <img  src="../bg/logo.png" >
+            <p class="login_description">Login</p>
+        </div>
+    </div>
+    <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>STUDENT LOGIN</h3>
+                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="btn btn-danger" id="studentbtn">login‎‎</a>
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="btnForgetPwd">Forgot Password?</a>
+                        </div>
+                </div>
+                
+                <div class="col-md-6 login-form-2">
+                    <h3>WARDEN LOGIN</h3>
+                        <div class="form-group">
+                            <input type="text" id="wardenusername" class="form-control" placeholder="Your Email *" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="wardenpass" class="form-control" placeholder="Your Password *" />
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-dark" id="wardenbtn" onClick="loginaswarden()">login‎‎</button>
+                        </div>
+                        
+                        <div class="form-group">
+                            <a href="#" id="btnForgetPwd">Forgot Password?</a>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+
+</body>
+</html>
+
+
+
