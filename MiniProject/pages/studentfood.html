@@ -1,0 +1,42 @@
+<!DOCTYPE html>                         
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENTS DATABASE</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/studentfood.css"/>
+    <link rel=""
+    <link rel="stylesheet" href="../css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="warden">
+        <div class="card-body">
+            <p class="card-text">food reviews</p>
+        </div>
+    </div>
+        <div class="card" >
+            <label for="exampleFormControlTextarea1">send your rating for foods</label><br>
+            <div class="items">
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Fried rise</option>
+                <option>Chapathi</option>
+                <option>uppma</option>
+                <option>rise with rasam</option>
+                <option>sanveg</option>
+            </select>
+  </div>
+            <br>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="card-body">
+                <a href="students.html" id="comp" onclick="feedback()" class="btn btn-success">send</a>
+                <script>
+                    function feedback() {
+                        alert("Thank you for your feedback");
+                }
+                </script>
+            </div>
+        </div>
+</body>
